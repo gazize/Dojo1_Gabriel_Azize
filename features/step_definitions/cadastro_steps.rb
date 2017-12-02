@@ -16,13 +16,13 @@ E("estiver na aba Candidates") do
 end
 
 Entao("preencho os dados do novo empregado") do
-  find(:id,'addCandidate_firstName').set 'Gabriel' 
-  find(:id,'addCandidate_middleName').set 'Tomaz'
-  find(:id,'addCandidate_lastName').set 'Azize'
-  find(:id,'addCandidate_email').set 'gabrielazize@gmail.com'
+  find(:id,'addCandidate_firstName').set 'Nataly' 
+  find(:id,'addCandidate_middleName').set 'Mariane'
+  find(:id,'addCandidate_lastName').set 'Bisof'
+  find(:id,'addCandidate_email').set 'nataly@gmail.com'
   find(:id,'addCandidate_contactNo').set '11912345678'
   #find(:id,'addCandidate_vacancy').select 'PM'
-  attach_file('addCandidate[resume]', 'C:\Users\Gabriel Tomaz Azize\Desktop\ORANGEHRM\cucumber.txt')
+  #attach_file('addCandidate[resume]', 'C:\Users\Gabriel Tomaz Azize\Desktop\ORANGEHRM\cucumber.txt')
   find(:id,'addCandidate_keyWords').set 'programador, automatizador, tester, agil'
   find(:id,'addCandidate_comment').set 'nothing to comment'
   #find(:id,'addCandidate_appliedDate').set Time.now.strftime('%Y/%m/%d')

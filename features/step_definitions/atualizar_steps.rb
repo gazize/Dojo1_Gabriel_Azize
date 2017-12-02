@@ -15,7 +15,7 @@ E ("editar dados do empregado") do
   click_button('Edit')
   find(:id,'addCandidate_firstName').set 'Alterado' 
   find(:id,'addCandidate_middleName').set 'Com'
-  find(:id,'addCandidate_lastName').set 'Sucesso'
+  find(:id,'addCandidate_lastName').set 'Sucesso2'
   click_button('Save')
 end
 
